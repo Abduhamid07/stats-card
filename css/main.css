@@ -1,0 +1,108 @@
+@import url(../css/fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0A0C1C;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+:root {
+    --indigo:#0A0C1C;
+    --font-family: "Inter";
+    --font-family2: "Inter-regular";
+    --font-family3: "Lexend Deca"
+}
+
+
+.main {
+    max-width: 1110px;
+    width: 100%;
+    height: 446px;
+}
+.stats-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: #1B1937;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.20);
+}
+.card-left {
+    padding: 71px 0 0 72px; 
+}
+.card-left__title {
+    max-width: 403px;
+    width: 100%;
+    color: #FFF;
+    font-size: 36px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    padding-bottom: 25px;
+
+}
+.title-blue {
+    color: #AB5CDB;
+}
+.card-left__text {
+    width: 374px;
+    color: #c1c0c0;
+    font-family: var(--font-family2);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 72px;
+}
+.card-about {
+    display: flex;
+    column-gap: 63.5px;
+}
+.card-about__buttons {
+}
+.card-about__num {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-about__text {
+    color: #888686;
+    font-family: var(--font-family3);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.card-img {
+}
+.card-image {
+    height: 446px;
+    border-radius: 0 8px 8px 0;
+    z-index: -1;
+}
+.img-content {
+    width: 540px;
+    height: 446px;
+    background: #aa5cdb53;
+    position: absolute;
+    border-radius: 0 8px 8px 0;
+}
